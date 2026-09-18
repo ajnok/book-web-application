@@ -1,0 +1,9 @@
+.box1 {
+        border-top: 3px dashed #ff6600;
+        border-right: 2px dotted #0066cc;
+        border-bottom: 4px solid #009966;
+        border-left: 2px double #cc0000;
+}
+.box2 {
+        border: 5px solid #333333;
+}

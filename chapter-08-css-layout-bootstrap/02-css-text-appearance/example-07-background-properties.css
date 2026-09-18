@@ -1,0 +1,11 @@
+.bg1 {
+        background-color: #f9f9f9;
+}
+.bg2 {
+        background-image: url("pattern.png");
+        background-repeat: repeat;
+        background-position: top left;
+}
+.bg3 {
+        background: #e0f7fa url("banner.jpg") no-repeat center top;
+}
