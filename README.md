@@ -22,20 +22,75 @@ Repository นี้จัดทำขึ้นเพื่อ
 
 ## โครงสร้างไฟล์
 
-โครงสร้างของ Repository อาจจัดแบ่งตามบทหรือหัวข้อของหนังสือ เช่น
+หนังสือแบ่งเนื้อหาออกเป็น 4 ส่วน 12 บท โดยบทที่ 1-2 เป็นเนื้อหาเชิงแนวคิด ไม่มีโค้ดตัวอย่างให้ฝึกปฏิบัติ จึงไม่มีโฟลเดอร์สำหรับสองบทนี้ใน Repository เนื้อหาที่ดึงมาเป็นไฟล์โค้ดจะเริ่มตั้งแต่บทที่ 3 เป็นต้นไป โดยจัดโครงสร้างดังนี้
 
 ```text
 book-web-application/
+├── chapter-03-web-environment-xampp/
+│   └── activities/
+├── chapter-04-docker-virtualization/
+│   ├── 03-lamp-stack-case-study/
+│   └── activities/
 ├── chapter-05-html/
+│   ├── 02-html-syntax/
+│   ├── 03-default-display/
+│   ├── 04-html-structure/
+│   ├── 05-comments/
+│   └── activities/
+├── chapter-06-html-common-tags/
+│   ├── 01-image-tags/
+│   ├── 02-link-tags/
+│   ├── 03-list-tags/
+│   ├── 04-heading-text-tags/
+│   ├── 05-table-tags/
+│   ├── 06-form-tags/
+│   ├── 07-non-semantic-grouping/
+│   ├── 08-semantic-grouping/
+│   └── activities/
 ├── chapter-07-css/
+│   ├── 02-css-syntax/
+│   ├── 03-using-css-with-html/
+│   ├── 04-colors-and-units/
+│   └── activities/
+├── chapter-08-css-layout-bootstrap/
+│   ├── 01-css-properties-basics/
+│   ├── 02-flexbox-and-grid/
+│   ├── 04-bootstrap-components/
+│   └── activities/
 ├── chapter-09-javascript/
+│   ├── 02-javascript-elements/
+│   ├── 03-data-types/
+│   ├── 04-control-structures/
+│   └── activities/
+├── chapter-10-javascript-dom/
+│   ├── 01-functions/
+│   ├── 02-objects/
+│   ├── 03-arrays/
+│   ├── 04-dom-manipulation/
+│   └── activities/
 ├── chapter-11-php/
-├── chapter-12-web-app-case-study/
+│   ├── 02-php-syntax/
+│   ├── 03-variables-data-types/
+│   ├── 04-echo-print/
+│   ├── 05-control-structures/
+│   ├── 06-functions-arrays/
+│   └── activities/
+├── chapter-12-php-crud/
+│   ├── 01-form-handling/
+│   ├── 02-database-connection/
+│   ├── 03-crud-system/
+│   └── activities/
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
 
-ชื่อโฟลเดอร์และไฟล์อาจมีการปรับปรุงให้เหมาะสมกับโครงสร้างเนื้อหาของหนังสือ
+หมายเหตุ:
+
+- โฟลเดอร์ย่อยในแต่ละบทจะสร้างเฉพาะหัวข้อที่มีโค้ดตัวอย่างจริงในหนังสือเท่านั้น หัวข้อที่เป็นเนื้อหาอธิบายล้วน (ไม่มีโค้ด) จะไม่มีโฟลเดอร์ให้ หากพบว่าเนื้อหาจริงมีโค้ดเพิ่มเติมนอกเหนือจากที่ระบุไว้ โครงสร้างนี้อาจปรับปรุงเพิ่มเติมและจะระบุไว้ในแต่ละ Pull Request
+- ไฟล์โค้ดในแต่ละหัวข้อตั้งชื่อในรูปแบบ `example-<เลขตัวอย่างในหนังสือ>-<คำอธิบายสั้นภาษาอังกฤษ>.<นามสกุลไฟล์>` และมีไฟล์ `README.md` กำกับในแต่ละโฟลเดอร์ เป็นตารางอ้างอิงกลับไปยังเลขตัวอย่างและเลขหน้าในหนังสือ
+- โฟลเดอร์ `activities/` ในแต่ละบท เก็บคำถามและกิจกรรมท้ายบทตามที่ปรากฏในหนังสือ
+- โค้ดทุกไฟล์คัดลอกตรงจากหนังสือ ไม่มีการแก้ไข ปรับปรุง หรือเพิ่มเติมใดๆ ทั้งสิ้น หากตัวอย่างใดเป็นเพียง code fragment ที่ไม่ใช่เอกสารสมบูรณ์ จะระบุไว้ใน README ของหัวข้อนั้น
 
 ## การใช้งาน
 

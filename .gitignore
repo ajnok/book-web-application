@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+__pycache__/
+*.pyc
+node_modules/
+*.tmp
+/_scratch/
