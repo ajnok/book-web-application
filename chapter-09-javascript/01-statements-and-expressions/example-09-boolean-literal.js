@@ -1,0 +1,2 @@
+isMember = true;
+hasAccess = false;
