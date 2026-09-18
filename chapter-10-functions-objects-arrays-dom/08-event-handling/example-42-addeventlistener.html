@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<button id="myButton">คลิกเพื่อทดลอง</button>
+	<p id="message">ข้อความจะแสดงที่นี่</p>
+	<script>
+		var button = document.getElementById("myButton");
+		var message = document.getElementById("message");
+		button.addEventListener("click", function () {
+			message.textContent = "คุณได้คลิกปุ่มแล้ว!";
+		});
+	</script>
+</body>
+</html>
