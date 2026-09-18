@@ -2,7 +2,7 @@
 console.log(product["name"]);
 //รูปแบบที่ 2
 let  propertyName = "name";
-console.log(product[propertyName
+console.log(product[propertyName]);
 //รูปแบบที่ 3
 product["showInfo"]( );
 //รูปแบบที่ 4
