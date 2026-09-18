@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 // ตรวจสอบว่ามี ID ส่งมาหรือไม่
-if (!isset($_GET['id']) || !lis_numeric($_GET['id'])) {
+if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 	header("Location: index.php");
 	exit();
 }
