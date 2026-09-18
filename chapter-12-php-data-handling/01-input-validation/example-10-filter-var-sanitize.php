@@ -1,6 +1,6 @@
 $email = "web<script>@example.com";
 $url = "https://webapp.com/<script>";
-$email = "web<script>@example.com";
+$comment = "<script>alert('XSS');</script>";
 $cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
 $cleanUrl = filter_var($url, FILTER_SANITIZE_URL);
 $cleanComment = filter_var($comment, FILTER_SANITIZE_SPECIAL_CHARS);
