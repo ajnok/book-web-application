@@ -1,0 +1,9 @@
+.font1 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.font2 {
+    font: normal 400 20px "Times New Roman", serif;
+}

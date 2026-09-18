@@ -1,0 +1,13 @@
+.box1 {
+        width: 250px;
+        height: 150px;
+        background-color: lightblue;
+}
+.box2
+{
+        width: 60%;
+        min-width: 200px;
+        max-width: 400px;
+        height: 150px;
+        background-color: lightgreen;
+}

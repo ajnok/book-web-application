@@ -1,0 +1,21 @@
+.table-a {
+        border-collapse: separate;
+        border: 2px solid black;
+        caption-side: top;
+        display: inline-table;
+}
+.table-b {
+        border-collapse: collapse;
+        border: 2px solid red;
+        caption-side: bottom;
+        display: inline-table;
+}
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+}
+.caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+}

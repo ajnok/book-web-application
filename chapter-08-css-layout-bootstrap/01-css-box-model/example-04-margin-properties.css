@@ -1,0 +1,11 @@
+.box1 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    background-color: #fff0cc;
+}
+.box2 {
+    margin: 10px 20px 15px 25px;
+    background-color: #ffe0e0;
+}
