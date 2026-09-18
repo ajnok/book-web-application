@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>หัวเรื่องย่อยที่ 1</h2>
+	<h2>หัวเรื่องย่อยที่ 2</h2>
+	<p>ย่อหน้าแรก</p>
+	<p>ย่อหน้าที่สอง</p>
+	<script>
+		var headings = document.getElementsByTagName("h2");
+		var paragraphs = document.getElementsByTagName("p");
+		console.log("จำนวนหัวเรื่อง h2: " + headings.length); // แสดง: 2
+		console.log("จำนวนย่อหน้า p: " + paragraphs.length); // แสดง: 2
+		console.log(headings[0].textContent); // แสดง: หัวเรื่องย่อยที่ 1
+		console.log(paragraphs[1].textContent); // แสดง: ย่อหน้าที่สอง
+	</script>
+</body>
+</html>

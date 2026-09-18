@@ -1,0 +1,11 @@
+let language = ["HTML", "CSS", "JavaScript"];
+console.log("ก่อนเปลี่ยนแปลง:", language[1]);
+language[1] = "Bootstrap";
+console.log("หลังเปลี่ยนแปลง:", language[1]);
+language[3] = "JQuery";
+console.log("หลังเพิ่มข้อมูล:", language);
+language[language.length] = "PHP";
+console.log("หลังเพิ่มด้วย length:", language);
+language[6] = "Web App";
+console.log("หลังข้ามดัชนี:", language);
+console.log("ขนาดใหม่:", language.length);
