@@ -1,6 +1,6 @@
 <?php
 	function calculateAge($birthYear) {
-		$currentYear = 2568
+		$currentYear = 2568;
 		$age = $currentYear - $birthYear;
 		return $age;
 	}
